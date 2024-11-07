@@ -3,9 +3,11 @@ Boucle Python faisant appel à l'API d'import de maquettes de Pégase.
 Le script lit l'entrée standard du shell à la recherche d'objets JSON pour les téléverser dans Pégase.
 
 > [!NOTE]
+> Script testé sur chaque version Pégase depuis la V24
 > API utilisées :
 > - **1 appel** - OffreDeFormation Externe V1 (**section** espaces-externe, **fonction** /etablissement/{codeStructure}/espaces)
 > - **N appels** - OffreDeFormation V1 (**section** maquettes, **fonction** /etablissement/{codeStructure}/maquette/{id}/importerBase64VersEspace)
+
 
 <p>&nbsp;</p>
 
